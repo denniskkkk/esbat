@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>MULTI-CHANNEL WIRELESS LEVEL LOG 2018</title>
+</head>
+<style>
+.container {
+	width: 1300px;
+	height: 700px;
+	text-align: center;
+}
+#tsta {
+	font-size: 10px;
+	text-align: center;
+}
+#tdat {
+	font-size: 10px;
+	text-align: center;
+}
+</style>
+<body>
+<h3>MULTI-CHANNEL WIRELESS LEVEL LOG 2018</h3>
+<table border='0px' width='600px' cellpadding='0px' cellspacing='0px'>
+<tr><td width="200px">&nbsp;<div id="rsize"></div></td>
+<td width="200px">&nbsp;<div id="wsize"></div></td></tr>
+</table>
+<div class="container">
+	<canvas id="enchart"></canvas>
+</div>
+<table id="tdat" border='1px' width='1300px'  cellpadding='0px' cellspacing='0px'>
+<tr><th colspan="20">CHANNEL DATA</th></tr>
+</table>
+<br>
+<table id="tsta" border='1px' width='1300px'  cellpadding='0px' cellspacing='0px'>
+<tr><th colspan="10">CHANNEL STATUS (#FAIL/#TOTAL)</th></tr>
+</table>
+</body>
+<script src="js/moment.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/toolx.js"></script>
+<script src="js/tools.js"></script>
+</html>
+
